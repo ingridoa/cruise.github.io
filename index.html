@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/image/docker-brands-solid.svg" />
+
+     <!-- Link de animacion con bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Travel Cruises</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+  />
+  <!-- Iconos de Bootstrap -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+  />
+  <!-- CSS -->
+  <link href="/assets/css/styles.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet"
+  />
+
+</head>
+<body>
+    <!-- Barra de navegación fija en la parte superior -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            
+            <img
+                    id="favicon"
+                    src="./assets/image/docker-brands-solid.svg"
+                    alt="icono del nav"
+                />
+                <a class="navbar-brand" href="#"> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./profile.html">¿Quién Soy?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./photos.html">Galería</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="container mt-5 pt-5 text-center">
+        <div class="profile">
+            <div class="profile-image">
+                <img src="./assets/image/profile2.jpg" alt="Profile picture" width="200" height="200">
+            </div>
+            <h1>@TravelCruises</h1>
+            <p class="description"><h2>🌍Construye un negocio global mientras recorres el mundo.✈️</h2></p>
+        </div>
+          <!-- Contenido de animacion bootstrap -->
+          <div class="container text-center mt-5">
+            <!-- Elemento donde se aplicará la animación de máquina de escribir -->
+            <span id="typewriter" class="typewriter-text"></span>
+          </div>
+        
+               <!-- Botones con enlaces a otras páginas -->
+        <div class="buttons d-flex flex-column align-items-center mx-auto">
+            <a href="profile.html" class="btn custom-btn btn-lg mx-auto">
+                <img src="./assets/image/acercademi.svg" alt="Icono sobre mí" class="icon me-2">
+                SOBRE MI..
+                <span class="link-more"> ⋮ </span>
+            </a>
+            <a href="https://www.incruises.com" class="btn custom-btn btn-lg mx-auto">
+                <img src="./assets/image/people-fill.svg" alt="Icono únete" class="icon me-2">
+                ÚNETE A MI EQUIPO
+                <span class="link-more"> ⋮ </span>
+            </a> 
+            <a href="https://wa.me/52962853168?text=¡Hola!%20Me%20gustaría%20saber%20más%20sobre%20tus%20servicios." class="btn custom-btn btn-lg mx-auto">
+                <img src="./assets/image/whatsapp.svg" alt="Icono WhatsApp" class="icon me-2">
+                CONTÁCTAME
+                <span class="link-more"> ⋮ </span>
+            </a>
+           
+        </div>
+    </div>
+<!-- Biblioteca de Typewriter -->
+<script src="https://cdn.jsdelivr.net/npm/typewriter-effect@latest/dist/core.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGzCRroTk1d8M8MOoMW8QvbBBZyFbb18+qfB8b3eNWb1K" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-I3QQAwX+q8Z5fMbMbdPHRdF2QrLtGIVm1PzQfTu2FxEKBdM2Ew5u6U/DMKNfDIfl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- JS -->
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
