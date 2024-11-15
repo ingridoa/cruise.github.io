@@ -221,10 +221,3 @@ footer .container {
         margin: 0 auto;
     }
 }
-/* style.css animacion de bootstrap letra en movimiento*/
-/* Clase para el texto de la animación en gris */
-.typewriter-text {
-    color: #466a6d; /* Gris Bootstrap */
-    font-size: 10.25rem; /* Tamaño de fuente ajustado */
-  }
-  
